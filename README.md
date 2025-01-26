@@ -19,9 +19,8 @@ A simple FastAPI application containerized with Docker and deployed on AWS EC2 i
 - AWS account (for deployment)
 
 ## Project Structure
-├── app/
-│ └── main.py # FastAPI application code
-├── Dockerfile # Docker build configuration
-├── docker-compose.yml # Docker Compose configuration
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+    - app/
+    - main.py # FastAPI application code
+    - Dockerfile # Docker build configuration
+    - docker-compose.yml # Docker Compose configuration
+    - requirements.txt # Python dependencies
